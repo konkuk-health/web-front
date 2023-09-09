@@ -1,0 +1,68 @@
+[
+    {
+        "nickName" : "kim",
+        "picture": [
+            "http://localhost:3000/images/img1.png",
+            "http://localhost:3000/images/img2.png",
+            "http://localhost:3000/images/img3.png"
+        ],
+        "Comment" : {
+            "user1" : {
+                    "nickName" : "jung",
+                    "Comment" : "멋져요"
+            },
+            "user2" : {
+                "nickName" : "jung",
+                "Comment" : "멋져요"
+            },
+            "user3" : {
+                "nickName" : "jung",
+                "Comment" : "멋져요"
+            }
+        }
+    },
+    {
+        "nickName" : "kim",
+        "picture": [
+            "http://localhost:3000/images/img1.png",
+            "http://localhost:3000/images/img2.png",
+            "http://localhost:3000/images/img3.png"
+        ],
+        "Comment" : {
+            "user1" : {
+                    "nickName" : "jung",
+                    "Comment" : "멋져요"
+            },
+            "user2" : {
+                "nickName" : "jung",
+                "Comment" : "멋져요"
+            },
+            "user3" : {
+                "nickName" : "jung",
+                "Comment" : "멋져요"
+            }
+        }
+    },
+    {
+        "nickName" : "kim",
+        "picture": [
+            "http://localhost:3000/images/img1.png",
+            "http://localhost:3000/images/img2.png",
+            "http://localhost:3000/images/img3.png"
+        ],
+        "Comment" : {
+            "user1" : {
+                    "nickName" : "jung",
+                    "Comment" : "멋져요"
+            },
+            "user2" : {
+                "nickName" : "jung",
+                "Comment" : "멋져요"
+            },
+            "user3" : {
+                "nickName" : "jung",
+                "Comment" : "멋져요"
+            }
+        }
+    }
+]
