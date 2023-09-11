@@ -12,14 +12,14 @@ function App() {
     display: flex;
     justify-content: center; /* 수평 가운데 정렬 */
     align-items: center; /* 수직 가운데 정렬 */
-    padding: 10% 20%;
+    padding: 50px 200px;
 `   ;
   return (
     <div style ={{display:"flex",height: "100%"}}>
     {/* 이 SideBar를 component로 나누고 react response 사용(useMediaQuery) */}
         <SideBar/>
         <ContentContainer>
-            <div style={{margin:"10px 180px"}}>
+            <div style={{padding:"10px 200px",margin:"0 auto"}}>
                 <Routes>
                     <Route path="/" element={<Post/>} />
                     <Route path="/about" element={<About/>} />
