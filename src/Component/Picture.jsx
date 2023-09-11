@@ -23,7 +23,7 @@ function Picture(props){
                 <aside>
                     <button value = '-1' onClick = {clickEvent} style={{position:'absolute', display:'inline-block',top:'45%',opacity:'0.5'}}>이전</button>
                 </aside>
-                <img src={img[idx]} style={{width: "400px",height:"400px"}}></img>
+                <img src={img[idx]} style={{width: "300px",height:"200px"}}></img>
                 <aside>
                     <button value='1' onClick = {clickEvent} style={{position:'absolute', display:'inline-block',top:'45%',right:'0%',opacity:'0.5'}}>다음</button>
                 </aside>
