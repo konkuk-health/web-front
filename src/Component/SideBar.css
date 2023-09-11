@@ -15,6 +15,9 @@
   }
 .sidebarTwo{
     width: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     float:left;
     border-right: 1px solid #000;
     background-color: lightblue;
@@ -45,5 +48,5 @@
   .tag a {
     color: black;
     text-decoration: none;
-    margin: 0 10px; /* 각 글자 사이 간격 설정 */
+    margin: 0 15px; /* 각 글자 사이 간격 설정 */
   }

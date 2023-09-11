@@ -4,7 +4,7 @@ import { useMediaQuery } from "react-responsive";
 import './SideBar.css';
 
 function SideBar(){
-    const isBigScreen = useMediaQuery({query:'(min-width: 1000px)'});
+    const isBigScreen = useMediaQuery({query:'(min-width: 1250px)'});
     return(
         <div className={isBigScreen ? "sidebarTwo" : "sidebar"}>
             <div className={isBigScreen ? "tag-containerTwo" : "tag-container"}>
